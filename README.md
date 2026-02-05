@@ -4,7 +4,7 @@ Diabetes prediction using SVM, comparing how physical activity affects classific
 
 ## What This Is
 
-Built an SVM classifier to predict diabetes risk, with a twist: I split the data into two groups—people who exercise and people who don't—to see if physical activity changes how well the model performs.
+Built an SVM classifier to predict diabetes risk, with a twist: I split the data into two groups: people who exercise and people who don't, to see if physical activity changes how well the model performs.
 
 Spoiler: it does.
 
@@ -18,10 +18,10 @@ Features include BMI, age, blood pressure, cholesterol, and other health indicat
 
 ## What's Inside
 
-- **Data exploration** — scatter plots, feature distributions
-- **PCA** — dimensionality reduction to visualize class separation
-- **SVM with RBF kernel** — hyperparameter tuning (C, gamma) via validation split
-- **Cross-model testing** — train on one group, test on the other to see generalization
+- **Data exploration** - scatter plots, feature distributions
+- **PCA** - dimensionality reduction to visualize class separation
+- **SVM with RBF kernel** - hyperparameter tuning (C, gamma) via validation split
+- **Cross-model testing** - train on one group, test on the other to see generalization
 
 ## Tech Stack
 
@@ -40,4 +40,4 @@ Then run `diabetes-classification-notebook.py` or open `code.ipynb`.
 
 ## Key Takeaway
 
-Physical activity isn't just good for your health—it also affects how predictable diabetes risk becomes. The models trained on each group behave differently when cross-tested, which says something about how lifestyle factors interact with other health metrics.
+Physical activity isn't just good for your health, it also affects how predictable diabetes risk becomes. The models trained on each group behave differently when cross-tested, which says something about how lifestyle factors interact with other health metrics.
